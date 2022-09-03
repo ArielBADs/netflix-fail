@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix Brasil - assistir a séries online, assistir a filmes online</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        #heading {
+            background: rgba(0, 0, 0, 0.5)
+        }
+
+        body {
+            background-image: url(https://assets.nflxext.com/ffe/siteui/vlv3/908077b4-cf0a-43c3-b2c9-435fb990299b/cad1b839-6732-4bec-aa6a-f30505a7fa2a/BR-pt-20220829-popsignuptwoweeks-perspective_alpha_website_large.jpg);
+            background-size: cover;
+            background-position: center top;
+        }
+
+        #heading div {
+            width: 95%;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        #heading .h1 {
+            padding: 10px;
+            text-transform: uppercase;
+            color: rgb(201, 17, 17);
+            font-family: sans-serif;
+
+        }
+
+        #heading a {
+            text-decoration: none;
+            text-transform: none;
+            padding-right: 40px;
+            color: white;
+            font-family: Arial;
+            font-size: .9rem;
+            font-weight: 400;
+            line-height: normal;
+        }
+
+        .s1 {
+            background-color: #e50914;
+            padding-top: 2px;
+            margin-top: 10px;
+            margin-bottom: 10px;
+            width: 56.23px;
+            height: 27px;
+            border-radius: 3px;
+        }
+
+        #corpo div {
+            padding: 80px 0;
+            margin: 0 auto;
+            max-width: 950px;
+            position: relative;
+            width: 100%;
+            z-index: 1;
+            text-align: center;
+
+        }
+
+        #corpo .titulo {
+            font-size: 1.75rem;
+            line-height: 1.1;
+            display: block;
+            margin-block-start: 0.67em;
+            margin-block-end: 0.67em;
+            margin-inline-start: 0px;
+            margin-inline-end: 0px;
+            font-weight: bold;
+            color: #fff;
+            font-family: Helvetica, Arial, sans-serif;
+            max-width: 650px;
+        }
+
+        #corpo .subtitulo {
+            font-size: 1.125rem;
+            margin: 1rem auto;
+            max-width: 640px;
+            font-weight: 400;
+            display: block;
+            margin-block-start: 0.83em;
+            margin-block-end: 0.83em;
+            margin-inline-start: 0px;
+            margin-inline-end: 0px;
+            font-weight: bold;
+            color: #fff;
+            font-family: Helvetica, Arial, sans-serif;
+        }
+
+        form {
+            margin-top: 0em;
+        }
+
+        .email-form {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .titulo-email {
+            padding: 0 10%;
+            font-weight: 400;
+            max-width: 450px;
+            font-size: 18px;
+            display: block;
+            margin-block-start: 1em;
+            margin-block-end: 1em;
+            margin-inline-start: 0px;
+            margin-inline-end: 0px;
+            text-align: center;
+            color: #fff;
+            font-family: Helvetica,Arial,sans-serif;
+        }
+    </style>
+
+</head>
+
+<body>
+    <header id="heading">
+        <div class="cabeca">
+            <h1 class="h1">
+                NETFLIX
+            </h1>
+            <section class="s1">
+                <h2>
+                    <pre><a href="#">  Entrar</a></pre>
+                </h2>
+            </section>
+        </div>
+    </header>
+    <header id="corpo">
+        <div class="div2">
+            <h1 class="titulo">
+                Filmes, séries e muito mais.<br> Sem limites.
+            </h1>
+            <h2 class="subtitulo">
+                Assista onde quiser. Cancele quando quiser.
+            </h2>
+            <form class="cta-form email-form" data-uia="email-form" method="GET">
+                <h3 class="titulo-email">
+                    Pronto para assistir? Informe seu email para criar ou reiniciar sua assinatura.
+                </h3>
+                <div class="lockup">
+                    <ul class="form-simples"><li>E-mail</li></ul>
+                </div>
+            </form>
+        </div>
+    </header>
+</body>
+
+</html>
